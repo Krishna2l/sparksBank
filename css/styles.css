@@ -1,0 +1,18 @@
+.logoimg{
+    margin-bottom: 0px;
+}
+.navbar{
+    background-color: rgb(130, 159, 240);
+}
+.navhead{
+    font-size: 50px;
+    color: rgb(26, 25, 44);
+}
+.nav-link{
+    padding: 3px;
+}
+#homebtns{
+    align-items: center; margin-top: 100px; margin-left: 650px ; list-style: none;
+     }
+#marq{
+    color:white; margin-top: 100px; color: white; font-weight:bold; font-size: 20px;}
