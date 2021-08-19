@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/history.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="./css/customers.css?v=<?php echo time(); ?>">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-    <title>KeepSafe Sparks Bank</title>
+    <title>KeepSafe Sparks Bank/Transfer History</title>
     
 </head>
 <?php include('nav.php') ?>
 <body>
     <div class="container">
-        <h1 id="histitle">TRANSACTION HISTORY</h1>
+        <h1 class="custitle">TRANSACTION HISTORY</h1>
         <br>
         <table class="table table-dark table-striped">
             <thead>

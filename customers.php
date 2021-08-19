@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/customers.css?v=<?php echo time(); ?>">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-    <title>KeepSafe Sparks Bank</title>
+    <title>KeepSafe Sparks Bank/ Customer Details</title>
 </head>
 
 <?php include('nav.php') ?>
