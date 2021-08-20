@@ -27,11 +27,11 @@
             </thead>
             <tbody>
                 <?php
-		require_once('connect.php');
-		$result = $conn->prepare("SELECT * FROM customers ORDER BY ID ASC");
-		$result->execute();
-		for($i=0; $row = $result->fetch(); $i++){
-	?>
+		            require_once('connect.php');
+		            $result = $conn->prepare("SELECT * FROM customers ORDER BY ID ASC");
+		            $result->execute();
+		            for($i=0; $row = $result->fetch(); $i++){
+	            ?>
                 <tr class="details">
                     <th scope="row"><label>
                             <?php echo $row['ID']; ?>

@@ -26,12 +26,12 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
-		require_once('connect.php');
-		$result = $conn->prepare("SELECT * FROM history ORDER BY slno ASC");
-		$result->execute();
-		for($i=0; $row = $result->fetch(); $i++){
-	?>
+            <?php
+		        require_once('connect.php');
+		        $result = $conn->prepare("SELECT * FROM history ORDER BY slno ASC");
+		        $result->execute();
+		        for($i=0; $row = $result->fetch(); $i++){
+	        ?>
                 <tr>
                     <th scope="row"><label>
                             <?php echo $row['slno']; ?>

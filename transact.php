@@ -16,12 +16,7 @@ if($sender == $receiver)
     echo 'alert("Transaction failed! Sender and Receiver cannot be same")';      
     echo '</script>';  
 }
-else if($sender=="---Select---" || $receiver=="---Select---") {
-    echo '<script type ="text/JavaScript">';  
-    echo 'window.location = "transfer.php";';
-    echo 'alert("Transaction failed! Insufficient Balance")';      
-    echo '</script>'; 
-}
+
 
 else if($amount<=0){
     echo '<script type ="text/JavaScript">';  
