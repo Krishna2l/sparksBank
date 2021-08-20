@@ -13,12 +13,14 @@
 <body >
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-between">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="navbar-brand" href="index.php"><img src="./images/logo.jpg" alt="Logo" class="img-thumbnail" height=50px width=50px></a></li>
+            <li class="nav-item active"><a class="navbar-brand" href="index.php">
+              <img src="./images/logo.jpg" alt="Logo" class="img-thumbnail" height=50px width=50px></a></li>
             <li class="nav-item active"><h1 class="navhead">KeepSafe Sparks Bank</h1></li>
         </ul>
         <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="index.php"><button type="button" class="btn btn-dark btn-md py-3 px-5">Home</button></a>
+              <a class="nav-link text-white" href="index.php">
+                <button type="button" class="btn btn-dark btn-md py-3 px-5">Home</button></a>
             </li>
           </ul>
         </nav>

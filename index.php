@@ -20,9 +20,12 @@
     confidential information such as PIN and OTP from customers.
         Any such call can be made only by a frauder.</marquee>
         <ul id="homebtns">
-           <li class="p-3"><a href="customers.php"><button type="button" class="btn btn-warning btn-lg py-3 px-5">View Customers</button></a></li>
-           <li class="p-3"><a href="transfer.php"><button type="button" class="btn btn-success btn-lg py-3 px-5">Transfer Money</button></a></li>
-           <li class="p-3"><a href="history.php"><button type="button" class="btn btn-danger btn-lg py-3 px-5">Transfer History</button></a></li>
+           <li class="p-3"><a href="customers.php">
+               <button type="button" class="btn btn-warning btn-lg py-3 px-5">View Customers</button></a></li>
+           <li class="p-3"><a href="transfer.php">
+               <button type="button" class="btn btn-success btn-lg py-3 px-5">Transfer Money</button></a></li>
+           <li class="p-3"><a href="history.php">
+               <button type="button" class="btn btn-danger btn-lg py-3 px-5">Transfer History</button></a></li>
         </ul>
 
 </body>
